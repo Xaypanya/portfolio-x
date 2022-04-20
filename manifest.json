@@ -1,0 +1,21 @@
+{
+    "short_name": "Portfolio-X",
+    "name": "Xaypanya Phongsa Portfolio-X",
+    "icons": [
+      {
+        "src": "/src/assets/portfoliox.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/src/assets/portfoliox.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  
