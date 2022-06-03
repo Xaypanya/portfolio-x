@@ -11,17 +11,17 @@ import pf7 from '../../assets/PF7-PakatClimate.jpg'
 const portfolioData = [
   {
     id: 1,
-    imageUrl: pf1,
-    title: "Lao#M - Music Streaming",
-    github: "https://github.com/Xaypanya/LaoSharpM",
-    demo: "https://xaypanya.github.io/LaoSharpM/"
-  },
-  {
-    id: 2,
     imageUrl: pf2,
     title: "3CW2 Meet Links - Study Table",
     github: "https://github.com/Xaypanya/3CW2-Meet-Links",
     demo: "https://www.ohwow-cw.ml"
+  },
+  {
+    id: 2,
+    imageUrl: pf1,
+    title: "Lao#M - Music Streaming",
+    github: "https://github.com/Xaypanya/LaoSharpM",
+    demo: "https://xaypanya.github.io/LaoSharpM/"
   },
   {
     id: 3,

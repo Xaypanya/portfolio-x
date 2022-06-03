@@ -16,49 +16,36 @@ function Experience() {
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>HTML</h4>
-                  <small className='text-light'>Excellent</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>CSS</h4>
-                  <small className='text-light'>Good</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>JavaScript</h4>
-                  <small className='text-light'>Good</small>
+                  <h4>JS</h4>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>React</h4>
-                  <small className='text-light'>Good</small>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>VueJS</h4>
-                  <small className='text-light'>fair</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>TailWind</h4>
-                    <small className='text-light'>Good</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>Bootstrap</h4>
-                  <small className='text-light'>Fair</small>
                   </div>
               </article>
              
@@ -72,42 +59,36 @@ function Experience() {
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>PHP</h4>
-                  <small className='text-light'>Fair</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>NodeJS</h4>
-                  <small className='text-light'>Fair</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>MySQL</h4>
-                  <small className='text-light'>Fair</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>Google Firebase</h4>
-                  <small className='text-light'>Fair</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>MongoDB</h4>
-                  <small className='text-light'>Fair</small>
                   </div>
               </article>
               <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>Laravel</h4>
-                  <small className='text-light'>Poor</small>
                   </div>
               </article>
         
