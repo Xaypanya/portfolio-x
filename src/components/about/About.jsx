@@ -37,9 +37,7 @@ function About() {
               </article>
           </div>
 
-          <p>I'm passionate about Computer Science, innovation and Technology, with an overall experience of 2 
-             years as Web Frontend Developer, I have gathered experience in the field of Dev and Project 
-             Management.
+          <p>I am a passionate advocate of Computer Science, innovation, and technology, driven by a strong curiosity for exploring the possibilities they offer. With a rich background as a Web Frontend Developer spanning two years, I have honed my expertise in both development and project management domains.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

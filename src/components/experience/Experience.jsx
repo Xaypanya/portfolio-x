@@ -3,6 +3,16 @@ import './Experience.css'
 import {BsFillPatchCheckFill} from 'react-icons/bs'
 
 function Experience() {
+
+  const techstack = {
+    frontend: [
+      "HTML","CSS","JS","ReactJS","TailwindCSS"
+    ],
+    backend: [
+      "Firebase","NodeJS","MongoDB","MySQL","MS SQL Server"
+    ]
+  }
+
   return (
     <section id='experience'>
       <h5>What Skills I Have</h5>
@@ -12,86 +22,32 @@ function Experience() {
           <div className="experience__frontend">
             <h3>Frontend Development</h3>
             <div className="experience__content">
-              <article className='experience__details'>
+              {
+                techstack.frontend.map((stack)=>(
+                  <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>HTML</h4>
+                  <h4>{stack}</h4>
                   </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>CSS</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>JS</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>React</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>TailWind</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>Bootstrap</h4>
-                  </div>
-              </article>
-             
+                  </article>
+                ))
+              }
             </div>
           </div>
           {/* ============= END FRONTEND ================== */}
           <div className="experience__backend">
             <h3>Backend Development</h3>
             <div className="experience__content">
-              <article className='experience__details'>
+            {
+                techstack.backend.map((stack)=>(
+                  <article className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>PHP</h4>
+                  <h4>{stack}</h4>
                   </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>NodeJS</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>MySQL</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>Google Firebase</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>MongoDB</h4>
-                  </div>
-              </article>
-              <article className='experience__details'>
-                  <BsFillPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>Laravel</h4>
-                  </div>
-              </article>
-        
+                  </article>
+                ))
+              }
             </div>
           </div>
       </div>
