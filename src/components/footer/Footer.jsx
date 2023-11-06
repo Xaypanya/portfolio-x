@@ -7,7 +7,7 @@ import {ImGithub} from 'react-icons/im'
 function Footer() {
   return (
     <footer id='endfooter'>
-      <a href="#" className='footer__logo'>k a r a i n z.</a>
+      <a href="#" className='footer__logo'>Xaypanya P.</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>

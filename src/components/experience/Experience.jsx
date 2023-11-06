@@ -6,7 +6,7 @@ function Experience() {
 
   const techstack = {
     frontend: [
-      "HTML","CSS","JS","ReactJS","TailwindCSS"
+      "HTML","CSS","JS","ReactJS","VueJS","TailwindCSS"
     ],
     backend: [
       "Firebase","NodeJS","MongoDB","MySQL","MS SQL Server"
