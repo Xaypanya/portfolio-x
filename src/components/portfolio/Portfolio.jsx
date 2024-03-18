@@ -101,7 +101,9 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={portfolio.imageUrl} alt={portfolio.title} />
           </div>
+          <div className='title_container'>
           <h3>{portfolio.title}</h3>
+          </div>
           <div className="portfolio__item-cta">
           <a href={portfolio.github} target="_blank" style={portfolio.github == "" ? {pointerEvents: "none", opacity: "20%"} : {}} className='btn'>GitHub</a>
           <a href={portfolio.demo} target="_blank" className='btn btn-primary'>Live Demo</a>
