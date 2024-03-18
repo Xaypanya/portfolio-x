@@ -6,7 +6,7 @@ function Experience() {
 
   const techstack = {
     frontend: [
-      "HTML","CSS","JS","ReactJS","VueJS","TailwindCSS"
+      "HTML","CSS","JS","ReactJS","VueJS","TailwindCSS","MaterialUI","NuxtJS"
     ],
     backend: [
       "Firebase","NodeJS","MongoDB","MySQL","MS SQL Server"
@@ -23,8 +23,8 @@ function Experience() {
             <h3>Frontend Development</h3>
             <div className="experience__content">
               {
-                techstack.frontend.map((stack)=>(
-                  <article className='experience__details'>
+                techstack.frontend.map((stack,index)=>(
+                  <article key={`frontend-${index}`} className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>{stack}</h4>
@@ -39,8 +39,8 @@ function Experience() {
             <h3>Backend Development</h3>
             <div className="experience__content">
             {
-                techstack.backend.map((stack)=>(
-                  <article className='experience__details'>
+                techstack.backend.map((stack, index)=>(
+                  <article key={`backend-${index}`} className='experience__details'>
                   <BsFillPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>{stack}</h4>

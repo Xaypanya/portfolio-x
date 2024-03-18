@@ -96,8 +96,8 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {portfolioData.map((portfolio)=>(
-          <article key={portfolio.id} className='portfolio__item'>
+        {portfolioData.map((portfolio, index)=>(
+          <article key={index} className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={portfolio.imageUrl} alt={portfolio.title} />
           </div>
