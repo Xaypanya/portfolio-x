@@ -12,11 +12,15 @@ import cer9 from '../../assets/Cer9.png';
 import cer10 from '../../assets/Cer10.png';
 import cer11 from '../../assets/Cer11.png';
 import cer12 from '../../assets/Cer12.png';
+import cer13 from '../../assets/Cer13.png';
+import cer14 from '../../assets/Cer14.png';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const certificateData = [
   { imageUrl: cer12, title: "Front End Development Libraries" },
+  { imageUrl: cer13, title: "ChatGPT for Developers" },
+  { imageUrl: cer14, title: "Essential SQL for Everyone" },
   { imageUrl: cer2, title: "Lao Young Hacker Competition" },
   { imageUrl: cer4, title: "Hacking Workshop" },
   { imageUrl: cer3, title: "The English Access Microscholarship Summer Camp Program" },
